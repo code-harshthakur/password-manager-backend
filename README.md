@@ -26,7 +26,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/yourusername/yourprojectname/issues) if you want to contribute.
+- Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/code-harshthakur/password-manager-backend/issues/1) if you want to contribute.
+- Always run prettier script before commiting : ```npm run prettier```
 
 ## 🙏 Acknowledgements
 
