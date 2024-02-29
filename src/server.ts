@@ -3,10 +3,12 @@ import bodyParser from 'body-parser';
 import { encryptData, saveDataToFile, inputData, decryptData } from './util';
 import { promises as fs } from 'fs';
 import path from 'path';
+import cors from 'cors';
 
 const app = express();
 const PORT: number = 3001;
-
+// Middlwears //
+app.use(cors());
 app.use(bodyParser.json());
 
 app.post('/add', async (req: Request, res: Response) => {
